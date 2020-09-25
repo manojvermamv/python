@@ -1,4 +1,4 @@
-# Snake, Water, Gun Game Development
+#Snake, Water, Gun Game Development
 #!/usr/bin/python3
 
 import random
@@ -7,7 +7,7 @@ char_lst = ["snake", "water", "gun"]
 life = 1
 score = 0
 cscore = 0
-print("<-------------------- Snake, Water and Gun Game -------------------->\n")
+print("<--------------------- Snake, Water and Gun Game --------------------->\n")
 
 while life<=10:
     rand = random.choice(char_lst)
